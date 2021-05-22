@@ -1,0 +1,41 @@
+﻿{
+    // default chest names
+    "default-name.fridge": "Réfrigérateur",
+    "default-name.other": "{{name}} #{{number}}",
+    "default-name.shipping-bin.store": "ajouter des objets",
+    "default-name.shipping-bin.take": "récupérer des objets",
+
+    // default category names
+    "default-category.owned-cabin": "Cabane de {{owner}}",
+    "default-category.unowned-cabin": "Cabane (vide)",
+    "default-category.duplicate": "{{locationName}} #{{number}}",
+
+    // edit-chest labels
+    "label.location": "Lieu",
+    "label.location.tile": "case {{x}}, {{y}}",
+    "label.name": "Nom",
+    "label.category": "Catégorie",
+    "label.order": "Ordre",
+    "label.hide-chest": "Cacher ce coffre",
+    "label.hide-chest-hidden": "Cacher ce coffre (vous devrez trouver ce coffre pour modifier cela !)",
+    "label.automate-options": "Automatisation",
+    "label.automate-store": "Mettre les objets dans ce coffre",
+    "label.automate-store-first": "Mettre les objets dans ce coffre d'abord",
+    "label.automate-store-disabled": "Ne mettez jamais d'objets dans ce coffre",
+    "label.automate-take": "Obtenir les objets dans ce coffre",
+    "label.automate-take-first": "Obtenir les objets dans ce coffre d'abord",
+    "label.automate-take-disabled": "Ne prenez jamais les objets de ce coffre",
+    "label.automate-prevent-remove-stacks": "Avoid removing the last item in a stack", // TODO
+
+    // button labels
+    "button.edit-chest": "modifier coffre",
+    "button.sort-inventory": "trier inventaire",
+    "button.save": "enregistrer",
+    "button.reset": "réinitialiser",
+
+    // errors
+    "errors.disabled-from-here": "Vous ne pouvez accéder aux coffres depuis ici.",
+    "errors.no-chests": "Vous n'avez aucun coffre.",
+    "errors.no-chests-in-location": "Vous n'avez aucun coffre dans cette zone.",
+    "errors.no-chests-in-range": "Vous n'avez aucun coffre à portée."
+}

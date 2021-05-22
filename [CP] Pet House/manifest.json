@@ -1,0 +1,13 @@
+{ 
+  "Name": "Pethouse",
+  "Author": "Taelende",
+  "Version": "1.1.3",
+  "Description": "Adds a pet house to your farm.",
+  "UniqueID": "Taelende.Pethouse",
+  "MinimumAPIVersion": "2.6",
+  "UpdateKeys": ["Nexus:2671"],
+  "ContentPackFor": 
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

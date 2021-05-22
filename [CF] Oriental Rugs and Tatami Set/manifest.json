@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Oriental Rugs and Tatami Set",
+  "Author": "SailorSaturn",
+  "Version": "1.0",
+  "Description": "Rugs of All Shapes and Sizes",
+  "UniqueID": "SSaturn.CustomFurniture.OrientalRugs",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.10.6"
+  }
+}

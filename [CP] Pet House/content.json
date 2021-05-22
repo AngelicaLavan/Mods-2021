@@ -1,0 +1,173 @@
+{ "Format": "1.4",
+  "ConfigSchema": {
+      "Petbowl": {
+          "AllowValues": "true, false"
+      },
+      "Pethouse": {
+          "AllowValues": "true, false"
+      },
+      "Blue": {
+          "AllowValues": "true, false"
+      }
+  },
+  "Changes": [
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm",
+        "FromFile": "assets/Farm.tbin",
+        "When": {
+            "Pethouse": "true",  "Blue": "false"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Combat",
+        "FromFile": "assets/Farm_Combat.tbin",
+        "When": {
+            "Pethouse": "true",  "Blue": "false"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Foraging",
+        "FromFile": "assets/Farm_Foraging.tbin",
+        "When": {
+            "Pethouse": "true",  "Blue": "false"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Fishing",
+        "FromFile": "assets/Farm_Fishing.tbin",
+        "When": {
+            "Pethouse": "true",  "Blue": "false"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Mining",
+        "FromFile": "assets/Farm_Mining.tbin",
+        "When": {
+            "Pethouse": "true",  "Blue": "false"
+         }
+      },
+	  {
+        "Action": "EditImage",
+        "Target": "Maps/spring_outdoorsTileSheet",
+        "FromFile": "assets/spring_bowl.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true",  "Blue": "false"
+         }
+       },
+      {
+        "Action": "EditImage",
+        "Target": "Maps/summer_outdoorsTileSheet",
+        "FromFile": "assets/summer_bowl.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true",  "Blue": "false"
+         }
+       },
+      {
+        "Action": "EditImage",
+        "Target": "Maps/fall_outdoorsTileSheet",
+        "FromFile": "assets/fall_bowl.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true",  "Blue": "false"
+         }
+       },
+      {
+        "Action": "EditImage",
+        "Target": "Maps/winter_outdoorsTileSheet",
+        "FromFile": "assets/winter_bowl.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true", "Blue": "false"
+         }
+       },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm",
+        "FromFile": "assets/FarmB.tbin",
+        "When": {
+            "Pethouse": "true", "Blue": "true"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Combat",
+        "FromFile": "assets/Farm_CombatB.tbin",
+        "When": {
+            "Pethouse": "true", "Blue": "true"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Foraging",
+        "FromFile": "assets/Farm_ForagingB.tbin",
+        "When": {
+            "Pethouse": "true", "Blue": "true"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Fishing",
+        "FromFile": "assets/Farm_FishingB.tbin",
+        "When": {
+            "Pethouse": "true", "Blue": "true"
+         }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/Farm_Mining",
+        "FromFile": "assets/Farm_MiningB.tbin",
+        "When": {
+            "Pethouse": "true", "Blue": "true"
+         }
+      },
+	  {
+        "Action": "EditImage",
+        "Target": "Maps/spring_outdoorsTileSheet",
+        "FromFile": "assets/spring_bowlB.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true", "Blue": "true"
+         }
+       },
+      {
+        "Action": "EditImage",
+        "Target": "Maps/summer_outdoorsTileSheet",
+        "FromFile": "assets/summer_bowlB.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true", "Blue": "true"
+         }
+       },
+      {
+        "Action": "EditImage",
+        "Target": "Maps/fall_outdoorsTileSheet",
+        "FromFile": "assets/fall_bowlB.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true", "Blue": "true"
+         }
+       },
+      {
+        "Action": "EditImage",
+        "Target": "Maps/winter_outdoorsTileSheet",
+        "FromFile": "assets/winter_bowlB.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+            "Petbowl": "true", "Blue": "true"
+         }
+       }
+  ],
+}
+
+
+
+
+
+

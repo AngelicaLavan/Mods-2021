@@ -1,0 +1,107 @@
+{
+	"Format": "1.3",
+	"ConfigSchema":
+		{
+			"TV stand":
+				{
+					"AllowValues": "Brown, Beige, White, Glass gold, Glass black"
+				},
+
+		},
+	"Changes": [
+			{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Brown.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+									},
+			"ToArea": {
+				"X": 448,
+				"Y": 720,
+				"Width": 48,
+				"Height": 48
+								},
+			"When":{"TV stand": "Brown"},
+			},
+
+			{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Beige.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+									},
+			"ToArea": {
+				"X": 448,
+				"Y": 720,
+				"Width": 48,
+				"Height": 48
+								},
+			"When":{"TV stand": "Beige"},
+			},
+
+			{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/White.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+									},
+			"ToArea": {
+				"X": 448,
+				"Y": 720,
+				"Width": 48,
+				"Height": 48
+								},
+			"When":{"TV stand": "White"},
+			},
+
+			{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Glass_Gold.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+									},
+			"ToArea": {
+				"X": 448,
+				"Y": 720,
+				"Width": 48,
+				"Height": 48
+								},
+			"When":{"TV stand": "Glass gold"},
+			},
+
+			{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Glass_Black.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+									},
+			"ToArea": {
+				"X": 448,
+				"Y": 720,
+				"Width": 48,
+				"Height": 48
+								},
+			"When":{"TV stand": "Glass black"},
+			},
+	]
+}

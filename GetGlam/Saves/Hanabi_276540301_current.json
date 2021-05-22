@@ -1,0 +1,17 @@
+{
+  "SaveFolderName": null,
+  "IsDefault": false,
+  "IsMale": false,
+  "BaseIndex": 0,
+  "SkinIndex": 0,
+  "HairIndex": 24,
+  "FaceIndex": 0,
+  "NoseIndex": 0,
+  "ShoesIndex": 0,
+  "AccessoryIndex": -1,
+  "DresserIndex": 1,
+  "IsBald": true,
+  "HairColor": "51, 22, 13, 255",
+  "EyeColor": "26, 107, 54, 255",
+  "Favorites": []
+}

@@ -1,0 +1,3714 @@
+{
+  "Format": "1.11.0",
+  
+  "ConfigSchema": {
+    "Baby Skin Color": {"AllowValues": "Default, Darker",
+	"Default": "Default"},
+    "Female Toddler Skin Color": {"AllowValues": "Default, Darker",
+	"Default": "Default"},
+    "Male Toddler Skin Color": {"AllowValues": "Default, Darker",
+	"Default": "Default"},
+    "Female Toddler Hairstyle": {"AllowValues": "Pigtails, Hairbuns",
+	"Default": "Pigtails"},
+    "Male Toddler Hairstyle": {"AllowValues": "Combed, Messy",
+	"Default": "Combed"},
+   "Baby Color Scheme": {"AllowValues": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor",
+   "Default": "Abigail"},
+    "Female Toddler Color Scheme": {"AllowValues": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor",
+	"Default": "Abigail"},
+    "Male Toddler Color Scheme": {"AllowValues": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor",
+	"Default": "Abigail"},
+  },
+  
+  "Changes": [
+    
+    // Abigail
+    
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterAbigailFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Abigail"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterAbigailFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Abigail"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterAbigailMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Abigail"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterAbigailMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Abigail"
+      }
+    },
+	
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/abigailbaby.png",
+      "When": {
+        "Baby Color Scheme": "Abigail",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/abigailbaby.png",
+      "When": {
+        "Baby Color Scheme": "Abigail",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigailhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigailhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigailpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigailpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigailcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigailcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigailmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigailmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/abigailbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Abigail",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/abigailbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Abigail",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigaildarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigaildarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigaildarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigaildarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigaildarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigaildarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigaildarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigaildarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+    
+// Alex
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterAlexFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Alex"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterAlexFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Alex"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterAlexMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Alex"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterAlexMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Alex"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/alexbaby.png",
+      "When": {
+        "Baby Color Scheme": "Alex",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/alexbaby.png",
+      "When": {
+        "Baby Color Scheme": "Alex",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/alexbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Alex",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/alexbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Alex",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Alex",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+    
+// Elliott
+    
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterElliottFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Elliott"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterElliottFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Elliott"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterElliottMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Elliott"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterElliottMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Elliott"
+      }
+    },
+	
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/elliottbaby.png",
+      "When": {
+        "Baby Color Scheme": "Elliott",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/elliottbaby.png",
+      "When": {
+        "Baby Color Scheme": "Elliott",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliotthairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliotthairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliottpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliottpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/elliottbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Elliott",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/elliottbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Elliott",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliottdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliottdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliottdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliottdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+    
+// Emily
+    
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterEmilyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Emily"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterEmilyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Emily"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterEmilyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Emily"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterEmilyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Emily"
+      }
+    },
+	
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/emilybaby.png",
+      "When": {
+        "Baby Color Scheme": "Emily",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/emilybaby.png",
+      "When": {
+        "Baby Color Scheme": "Emily",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/emilybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Emily",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/emilybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Emily",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Emily",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+    
+// Harvey
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterHarveyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Harvey"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterHarveyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Harvey"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterHarveyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Harvey"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterHarveyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Harvey"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/harveybaby.png",
+      "When": {
+        "Baby Color Scheme": "Harvey",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/harveybaby.png",
+      "When": {
+        "Baby Color Scheme": "Harvey",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/harveybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Harvey",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/harveybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Harvey",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+    
+// Leah
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterLeahFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Leah"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterLeahFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Leah"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterLeahMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Leah"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterLeahMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Leah"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/leahbaby.png",
+      "When": {
+        "Baby Color Scheme": "Leah",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/leahbaby.png",
+      "When": {
+        "Baby Color Scheme": "Leah",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/leahbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Leah",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/leahbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Leah",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Leah",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+    
+// Shane
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterShaneFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Shane"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterShaneFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Shane"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterShaneMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Shane"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterShaneMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Shane"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/shanebaby.png",
+      "When": {
+        "Baby Color Scheme": "Shane",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/shanebaby.png",
+      "When": {
+        "Baby Color Scheme": "Shane",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanehairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanehairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanepigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanepigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanecombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanecombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanemessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanemessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/shanebabydark.png",
+      "When": {
+        "Baby Color Scheme": "Shane",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/shanebabydark.png",
+      "When": {
+        "Baby Color Scheme": "Shane",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanedarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanedarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanedarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanedarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Shane",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanedarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanedarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanedarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanedarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+    
+// Sebastian
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterSebastianFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Sebastian"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterSebastianFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Sebastian"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterSebastianMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Sebastian"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterSebastianMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Sebastian"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/sebastianbaby.png",
+      "When": {
+        "Baby Color Scheme": "Sebastian",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/sebastianbaby.png",
+      "When": {
+        "Baby Color Scheme": "Sebastian",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastianhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastianhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastianpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastianpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiancombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiancombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastianmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastianmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/sebastianbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Sebastian",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/sebastianbabydark.png",
+      "When": {
+        "Baby Color Scheme": "Sebastian",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastiandarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastiandarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastiandarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastiandarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiandarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiandarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiandarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiandarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+    
+// Sebastian Ginger
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterSebastianFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "SebastianGinger"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterSebastianFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "SebastianGinger"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterSebastianMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "SebastianGinger"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterSebastianMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "SebastianGinger"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/sebastianbabyginger.png",
+      "When": {
+        "Baby Color Scheme": "SebastianGinger"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/sebastianbabyginger.png",
+      "When": {
+        "Baby Color Scheme": "SebastianGinger"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastiangingerhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "SebastianGinger",
+        "Female Toddler Hairstyle": "Hairbuns"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastiangingerhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "SebastianGinger",
+        "Female Toddler Hairstyle": "Hairbuns"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastiangingerpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "SebastianGinger",
+        "Female Toddler Hairstyle": "Pigtails"          
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastiangingerpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "SebastianGinger",
+        "Female Toddler Hairstyle": "Pigtails"              
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiangingercombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "SebastianGinger",
+        "Male Toddler Hairstyle": "Combed"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiangingercombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "SebastianGinger",
+        "Male Toddler Hairstyle": "Combed"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiangingermessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "SebastianGinger",
+        "Male Toddler Hairstyle": "Messy"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiangingermessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "SebastianGinger",
+        "Male Toddler Hairstyle": "Messy"
+
+      }
+    },
+    
+// Haley
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterHaleyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Haley"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterHaleyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Haley"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterHaleyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Haley"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterHaleyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Haley"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Haleybaby.png",
+      "When": {
+        "Baby Color Scheme": "Haley",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Haleybaby.png",
+      "When": {
+        "Baby Color Scheme": "Haley",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Haleyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Haleyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Haleypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Haleypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Haleycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Haleycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Haleymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Haleymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Haleybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Haley",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Haleybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Haley",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Haleydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Haleydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Haleydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Haleydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Haley",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Haleydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Haleydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Haleydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Haleydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+    
+    // Maru
+    
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterMaruFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Maru"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterMaruFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Maru"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterMaruMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Maru"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterMaruMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Maru"
+      }
+    },
+	
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Marubaby.png",
+      "When": {
+        "Baby Color Scheme": "Maru",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Marubaby.png",
+      "When": {
+        "Baby Color Scheme": "Maru",
+        "Baby Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Maruhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Maruhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Marupigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Marupigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Marucombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Marucombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Marumessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Marumessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Marubabydark.png",
+      "When": {
+        "Baby Color Scheme": "Maru",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Marubabydark.png",
+      "When": {
+        "Baby Color Scheme": "Maru",
+        "Baby Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Marudarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Marudarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Marudarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Marudarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Maru",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Marudarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Marudarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Marudarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Marudarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+      }
+    },
+   
+// Penny
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterPennyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Penny"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterPennyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Penny"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterPennyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Penny"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterPennyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Penny"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Pennybaby.png",
+      "When": {
+        "Baby Color Scheme": "Penny",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Pennybaby.png",
+      "When": {
+        "Baby Color Scheme": "Penny",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Pennyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Pennyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Pennypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Pennypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Pennycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Pennycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Pennymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Pennymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Pennybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Penny",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Pennybabydark.png",
+      "When": {
+        "Baby Color Scheme": "Penny",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Pennydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Pennydarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Pennydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Pennydarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Penny",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Pennydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Pennydarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Pennydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Pennydarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+    
+// Sam
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterSamFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Sam"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterSamFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Sam"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterSamMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Sam"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterSamMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Sam"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Sambaby.png",
+      "When": {
+        "Baby Color Scheme": "Sam",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Sambaby.png",
+      "When": {
+        "Baby Color Scheme": "Sam",
+        "Baby Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Samhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Samhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Sampigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Sampigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Default"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Samcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Samcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Sammessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Sammessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Default"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Sambabydark.png",
+      "When": {
+        "Baby Color Scheme": "Sam",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Sambabydark.png",
+      "When": {
+        "Baby Color Scheme": "Sam",
+        "Baby Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Samdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Samdarkhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Samdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Samdarkpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sam",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Female Toddler Skin Color": "Darker"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Samdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Samdarkcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Samdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Samdarkmessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Color": "Darker"
+
+      }
+    },
+    
+// Diverse Emily
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterDiverseEmilyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "DiverseEmily"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterDiverseEmilyFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "DiverseEmily"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterDiverseEmilyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "DiverseEmily"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterDiverseEmilyMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "DiverseEmily"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/DiverseEmilybaby.png",
+      "When": {
+        "Baby Color Scheme": "DiverseEmily"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/DiverseEmilybaby.png",
+      "When": {
+        "Baby Color Scheme": "DiverseEmily"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/DiverseEmilyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "DiverseEmily",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/DiverseEmilyhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "DiverseEmily",
+        "Female Toddler Hairstyle": "Hairbuns"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/DiverseEmilypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "DiverseEmily",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/DiverseEmilypigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "DiverseEmily",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/DiverseEmilycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "DiverseEmily",
+        "Male Toddler Hairstyle": "Combed"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/DiverseEmilycombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "DiverseEmily",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/DiverseEmilymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "DiverseEmily",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/DiverseEmilymessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "DiverseEmily",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+    
+// Caroline
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterAbigailFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Caroline"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterAbigailFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Caroline"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterAbigailMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Caroline"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterAbigailMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Caroline"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Carolinebaby.png",
+      "When": {
+        "Baby Color Scheme": "Caroline"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_Caroline",
+      "FromFile": "assets/Baby/Carolinebaby.png",
+      "When": {
+        "Baby Color Scheme": "Caroline"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Carolinehairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_Caroline",
+      "FromFile": "assets/Female/Carolinehairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Hairbuns"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Carolinepigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_Caroline",
+      "FromFile": "assets/Female/Carolinepigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Carolinecombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Caroline",
+        "Male Toddler Hairstyle": "Combed"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_Caroline",
+      "FromFile": "assets/Male/Carolinecombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Caroline",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Carolinemessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Caroline",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_Caroline",
+      "FromFile": "assets/Male/Carolinemessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Caroline",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+    
+// Sophia 
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterSophiaFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Sophia"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterSophiaFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Sophia"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterSophiaMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Sophia"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterSophiaMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Sophia"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Sophiababy.png",
+      "When": {
+        "Baby Color Scheme": "Sophia"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Sophiababy.png",
+      "When": {
+        "Baby Color Scheme": "Sophia"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Sophiahairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Sophiahairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Hairbuns"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Sophiapigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Sophiapigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Sophiacombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Combed"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Sophiacombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Sophiamessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Sophiamessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+    
+	// Victor 
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Seasonal/WinterVictorFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Victor"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Seasonal/WinterVictorFemale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Female Toddler Color Scheme": "Victor"
+      }
+    },
+	
+		{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Seasonal/WinterVictorMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Victor"
+      }
+    },
+
+{
+      "Action": "EditImage",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Seasonal/WinterVictorMale.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "Fall, Winter",
+        "Male Toddler Color Scheme": "Victor"
+      }
+    },
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/Victorbaby.png",
+      "When": {
+        "Baby Color Scheme": "Victor"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/Victorbaby.png",
+      "When": {
+        "Baby Color Scheme": "Victor"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Victorhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Victor",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Victorhairbuns.png",
+      "When": {
+        "Female Toddler Color Scheme": "Victor",
+        "Female Toddler Hairstyle": "Hairbuns"
+
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/Victorpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Victor",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/Victorpigtails.png",
+      "When": {
+        "Female Toddler Color Scheme": "Victor",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Victorcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Victor",
+        "Male Toddler Hairstyle": "Combed"
+
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Victorcombed.png",
+      "When": {
+        "Male Toddler Color Scheme": "Victor",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/Victormessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Victor",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/Victormessy.png",
+      "When": {
+        "Male Toddler Color Scheme": "Victor",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    }
+  ]
+}

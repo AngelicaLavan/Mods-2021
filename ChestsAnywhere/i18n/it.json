@@ -1,0 +1,41 @@
+﻿{
+    // default chest names
+    "default-name.fridge": "Frigo",
+    "default-name.other": "{{name}} n.{{number}}",
+    "default-name.shipping-bin.store": "spedisci oggetti",
+    "default-name.shipping-bin.take": "recupera oggetti",
+
+    // default category names
+    "default-category.owned-cabin": "Cabina ({{owner}})",
+    "default-category.unowned-cabin": "Cabina (vuota)",
+    "default-category.duplicate": "{{locationName}} n.{{number}}",
+
+    // edit-chest labels
+    "label.location": "Luogo",
+    "label.location.tile": "posizione {{x}}, {{y}}",
+    "label.name": "Nome",
+    "label.category": "Categoria",
+    "label.order": "Ordine",
+    "label.hide-chest": "Nascondi questo baule",
+    "label.hide-chest-hidden": "Nascondi questo baule (per annullare l'azione devi ritrovare il baule!)",
+    "label.automate-options": "Automatizza",
+    "label.automate-store": "Metti gli oggetti in questo baule",
+    "label.automate-store-first": "Metti prima gli oggetti nel baule",
+    "label.automate-store-disabled": "Never put items in this chest", // TODO
+    "label.automate-take": "Prendi oggetti da questo baule",
+    "label.automate-take-first": "Prendi prima gli oggetti da questo baule",
+    "label.automate-take-disabled": "Never take items from this chest", // TODO
+    "label.automate-prevent-remove-stacks": "Avoid removing the last item in a stack", // TODO
+
+    // button labels
+    "button.edit-chest": "modifica baule",
+    "button.sort-inventory": "ordina inventario",
+    "button.save": "salva",
+    "button.reset": "ripristina",
+
+    // errors
+    "errors.disabled-from-here": "Non puoi accedere al baule da qui.",
+    "errors.no-chests": "Non hai ancora nessun baule.",
+    "errors.no-chests-in-location": "Non hai nessun baule in quest'area.",
+    "errors.no-chests-in-range": "Non hai nessun baule vicino a te."
+}

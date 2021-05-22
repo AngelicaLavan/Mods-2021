@@ -1,0 +1,38 @@
+Run your game and load a save file with the mod installed to generate the config file. After that, close your game and open up config.json found inside the folder for this mod. This file can be edited with notepad. 
+
+1. Baby Skin Color
+This will determine the skintone of ONLY the baby in the crib.
+"Default" will use your chosen color scheme's regular skintone.
+"Darker" will use the darker skin variant of your chosen color scheme's skintone.
+
+2. Female Toddler Skin Color
+This will determine the skintone of ONLY the female toddler.
+"Default" will use your chosen color scheme's regular skintone.
+"Darker" will use the darker skin variant of your chosen color scheme's skintone.
+
+3. Male Toddler Skin Color
+This will determine the skintone of ONLY the female toddler.
+"Default" will use your chosen color scheme's regular skintone.
+"Darker" will use the darker skin variant of your chosen color scheme's skintone.
+
+4. Female Toddler Hairstyle
+"Pigtails" will set the female toddler's hair as the low pigtails.
+"Hairbuns" will set the female toddler's hair as the high buns.
+
+5. Male Toddler Hairstyle
+"Combed" will set the male toddler's hair as the neat, combed look.
+"Messy" will set the male toddler's hair as the spikey, messy look.
+
+6. Baby Color Scheme
+This will determine the character that the baby in the crib is based off of. Please check the nexusmods images for a preview of all options. The available values are:
+"Abigail" / "Alex" / "Elliott" / "Emily" / "Haley" / "Harvey" / "Leah" / "Maru" / "Penny" / "Sam" / "Sebastian" / "SebastianGinger" / "Shane" / "DiverseEmily" / "Caroline" / "Sophia" / "Victor"
+
+7. Female Toddler Color Scheme
+This will determine the character that the female toddler is based off of. Please check the nexusmods images for a preview of all options. The available values are:
+"Abigail" / "Alex" / "Elliott" / "Emily" / "Haley" / "Harvey" / "Leah" / "Maru" / "Penny" / "Sam" / "Sebastian" / "SebastianGinger" /  "Shane" / "DiverseEmily" / "Caroline" / "Sophia" / "Victor"
+
+8. Male Toddler Color Scheme
+This will determine the character that the male toddler is based off of. Please check the nexusmods images for a preview of all options. The available values are:
+"Abigail" / "Alex" / "Elliott" / "Emily" / "Haley" / "Harvey" / "Leah" / "Maru" / "Penny" / "Sam" / "Sebastian" / "SebastianGinger" /  "Shane" / "DiverseEmily" / "Caroline" / "Sophia" / "Victor"
+
+Sebastian's GINGER children do not have darker skintones available. They will always have default skintones.
